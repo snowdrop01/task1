@@ -1,0 +1,302 @@
+*{transition:all 0.3s ease-in-out;}
+
+nav{
+    float:right;
+    width: 100%;
+    height: 50px;
+}
+ 
+.logo{
+    padding-left: 100px;
+} 
+
+.font{
+    float: right;
+    padding-right: 200px;
+}
+
+
+
+ul li{
+  display: inline-block;
+  padding-left: 100px;
+  padding: 20px;
+  font-size:15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul li:hover{
+  color: black;
+  
+}
+
+.bgimg{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 10px;
+ 
+}
+
+.content{
+    width: 100%;
+    margin: 1%;
+    position: relative;   
+}
+
+.first-txt{
+position: absolute;
+width: 500px;
+height: 30px;
+left: 500px;
+top: 250px;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 49px;
+padding-right: 20px;
+color: #EB3F57;
+}
+
+.second-txt{
+    position: absolute;
+    width: 804px;
+    height: 58px;
+    left: 300px;
+    top: 400px;
+    padding-left: 10px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding-left: 20px;
+    
+    color: #FFFFFF;
+}
+
+.button{
+position: absolute;
+width: 135px;
+height: 40px;
+left: 600px;
+top: 470px;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+text-align: center;
+padding-left: 10px;
+padding-top: 7px;
+
+/* Indium Technology/new gradient */
+background: linear-gradient(180deg, #EB3F57 0%, #893944 100%);
+box-shadow: 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5);
+border-radius: 32px;
+}
+
+
+.float-right{
+position: absolute;
+width: 150px;
+height: 87px;
+left: 212px;
+top: 700px;
+
+/* 36px */
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 49px;
+text-transform: uppercase;
+
+/* dark gray */
+color: #454654;
+}
+
+.pic {
+    width: 70%;
+    height: 50vh;
+    background: url("http:unsplash.it/400x300");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .arrowbutton {
+    position: absolute;
+    top: 125%;
+    left: 17%;
+    height: 100px;
+    width: 80px;
+    background: transparent;
+  }
+  
+   .button:before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: red;
+    position: absolute;
+    top: 1000%;
+    left: -375px;
+    margin-top: -1px;
+    right: 24px;
+    transition: all 0.3s ease;
+  }
+   
+  .button:hover:before {
+    right: 34px;
+    width: 35px;
+  }
+  
+  .button:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent red;
+    position: absolute;
+    top: 1000%;
+    left: -330px;
+    margin-top: -5px;
+    right: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover:after {
+    right: 34px;
+    right: 30px;
+  } 
+
+.side-head{
+
+    position: absolute;
+    width: 500px;
+    height: 87px;
+    left: 200px;
+    top: 900px;
+/* 36px */
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-transform: uppercase;
+color: #EB3F57;
+}
+
+.side-inner{
+    position: absolute;
+    width: 500px;
+    height: 87px;
+    left: 200px;
+    top: 980px;
+/* 36px */
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 15px;
+
+}
+
+.side-img{
+    position: absolute;
+    width: 50%;
+    height: 450px;
+    left: 750px;
+    top: 100%;
+}
+
+.float-left{
+    position: absolute;
+    width: 150px;
+    height: 87px;
+    left: 1100px;
+    top: 1400px;
+    
+    /* 36px */
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 49px;
+    text-transform: uppercase;
+    
+    /* dark gray */
+    color: #454654;
+    }
+    
+
+.arrow2{
+    /* Arrow 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 70px;
+height: 0px;
+left: 1130px;
+top: 1550px;
+
+/* Indium Technology/red */
+border: 3px solid #EB3F57;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.side2-img{
+    position: absolute;
+    width: 50%;
+    height: 450px;
+    left: 10px;
+    top: 200%;
+}
+
+.sub-head{
+    position: absolute;
+width: 217px;
+height: 29px;
+left: 1000px;
+top: 1700px;
+
+font-family:'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+
+/* identical to box height */
+
+color: #000000;
+}
+
+.sub-inner{
+    position: absolute;
+width: 436px;
+height: 125px;
+left: 1000px;
+top: 1750px;
+
+/* 18px */
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+
+color: #000000;
+
+
+}
+
+.pic1{
+    position: absolute;
+    width: 7%;
+    height: 100px;
+    left: 850px;
+    top: 230%;
+}
